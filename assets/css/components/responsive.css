@@ -133,6 +133,10 @@
 		height: 2.4rem;
 	}
 
+	header nav ul li.faq {
+		margin-bottom: 1rem;
+	}
+
 	header .newsletter .newsletterform .newsletterfields label.emaillabel {
 		left: 6rem;
 	}

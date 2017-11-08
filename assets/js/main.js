@@ -1,12 +1,11 @@
 var typed = new Typed('#typed', {
   strings: ['COIN', 'MILLION', 'OWNER'],
-  typeSpeed: 20,
-  backSpeed: 20,
-  startDelay: 2000,
+  typeSpeed: 50,
+  backSpeed: 50,
+  startDelay: 3000,
   fadeOut: true,
   loop: true
 });
-
 
 /* ------------ Countdown Code ----------------*/
 
@@ -49,5 +48,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("2017-11-11T11:00:00Z");
+var deadline = new Date("2017-12-01T11:00:00Z");
 initializeClock('clockdiv', deadline);
