@@ -8,3 +8,42 @@
 @import "components/responsive.css";
 @import "components/animations.css";
 @import "components/coin.css";
+
+.title-container {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.title-main {
+  text-align:left;
+  padding-left:80px;
+}
+
+/* Clock Styling */
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+  border-radius: 5px;
+  width:50px;
+  border: 1px solid white;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
